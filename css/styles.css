@@ -4,16 +4,18 @@ img{
 	height:auto;
 }
 body {
-	background-color:rgb(228,241,254);
+	background-color:rgb(247,255,255);
 	background-image:none;
 	margin-left: 60px;
 	margin-right: 100px;
 	margin-top: 50px;
 	margin-bottom: 300px;
+	color:rgb(74,74,74);
 }
 a:visited, a:link, a:active
 {
     text-decoration: none;
+    color:rgb(74,74,74);
 }
 
 ul{
@@ -33,20 +35,24 @@ ul{
 	font-weight: bold;
 	text-decoration: none;
 	font-size:11px;
-	margin:0;
+	margin-left:-40px;
 	padding:0;
-	float:center;
-	top:1.3em;
-}
-#projects{
 	width:100%;
 }
 .project{
-	font-family:arial,sans-serif;
-	font-size:12px;
-	font-weight:bold;
-	display:inline-block;
-	width:24%;
-	background-color:none;
-	text-align:center;
+    width:220px;
+    height:230px;
+    position:centered;
+
+    font-family:arial,sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    background-color:none;
+    text-align:center;
+    display:inline-block;
+}
+.project{
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left:0px;
 }
