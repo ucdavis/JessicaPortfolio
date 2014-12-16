@@ -1,58 +1,73 @@
 //Logo image of Jessica Park (name)
-img{
-	max-width:100%;
-	height:auto;
+img {
+	max-width: 100%;
+	height: auto;
 }
 body {
-	background-color:rgb(247,255,255);
-	background-image:none;
+	background-color: rgb(235,240,250);
+	background-image: none;
 	margin-left: 60px;
 	margin-right: 100px;
 	margin-top: 50px;
 	margin-bottom: 300px;
-	color:rgb(74,74,74);
+	color: rgb(74,74,74);
 }
-a:visited, a:link, a:active
-{
+a:visited, a:link, a:active {
     text-decoration: none;
-    color:rgb(74,74,74);
-}
-
-ul{
-	list-style-type: none;
-}
-#Name{
-	font-family: arial, sans-serif;
-	font-size:15pt;
+    color: rgb(74,74,74);
 }
 .logo {
-	font-family: arial, sans-serif;
-	font-weight: bold;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100px;
+	line-height: 3px;
+}
+.logo h {
 	font-style: none;
+	font-size: 24px; 
 }
-.navigation{
-	font-family:arial,sans-serif;
-	font-weight: bold;
-	text-decoration: none;
-	font-size:11px;
-	margin-left:-40px;
-	padding:0;
-	width:100%;
+.logo p {
+	font-size: 18px;
 }
-.project{
-    width:220px;
-    height:230px;
-    position:centered;
+.navigation {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100px;
+	font-style: normal;
+	font-size: 15px;
+	margin-left: -40px;
+	padding: 0;
+	width: 100%;
+}
+.navigation ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+.navigation li{
+	display: inline-block;
+	float: right;
+}
+.navigation a{
+	display: block;
+    width: 50px;
+}
+.project {
+    width: 220px;
+    height: 230px;
+    position: left;
 
-    font-family:arial,sans-serif;
-    font-size:12px;
-    font-weight:bold;
-    background-color:none;
-    text-align:center;
-    display:inline-block;
-}
-.project{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100px;
+    background-color: none;
+    text-align: left;
+    display: inline-block;
+
     padding-top: 10px;
-    padding-right:10px;
-    padding-left:0px;
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-bottom: -10px;
 }
